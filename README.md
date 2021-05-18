@@ -2,6 +2,8 @@
 
 This repo just contains a collection of scripts & config that I use to setup my base dev environment on new machines before running additional config scripts for either work / personal systems. 
 
+When I start at a new workplace this base repo gets cloned and pushed to a new internal repo where work specific scripts & config is then saved. 
+
 ## Getting Started
 
 ```bash
@@ -13,8 +15,6 @@ cd scripts && \
 ## Backing up config
 
 ```bash
-backup_mac
-## or 
 . ./init.sh && backup_mac
 ```
 
